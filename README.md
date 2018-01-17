@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-	compile 'com.github.toliner:Kotatu-ktor-klaxon:-SNAPSHOT'
+	compile 'com.github.toliner:Kotatu-ktor-klaxon:0.1.1'
 }
 
 ```
