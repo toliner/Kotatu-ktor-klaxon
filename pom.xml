@@ -17,6 +17,17 @@
         <junit.version>4.12</junit.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>JCenter</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>Ktor</id>
+            <url>https://kotlin.bintray.com/ktor</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -36,7 +47,7 @@
         </dependency>
         <dependency>
             <groupId>io.ktor</groupId>
-            <artifactId>ktor</artifactId>
+            <artifactId>ktor-server-core</artifactId>
             <version>0.9.1-alpha-8</version>
             <type>pom</type>
         </dependency>
