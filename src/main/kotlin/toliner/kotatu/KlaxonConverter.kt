@@ -31,3 +31,7 @@ fun ContentNegotiation.Configuration.klaxon(block: Klaxon.() -> Unit) {
     val converter = KlaxonConverter(Klaxon().apply(block))
     register(ContentType.Application.Json, converter)
 }
+
+fun ContentNegotiation.Configuration.klaxon() {
+    register(ContentType.Application.Json, KlaxonConverter())
+}
