@@ -16,11 +16,11 @@ import io.ktor.request.ApplicationReceiveRequest
 
 class KlaxonConverter(private val klaxon: Klaxon = Klaxon()) : ContentConverter {
 
-    suspend override fun convertForSend(context: PipelineContext<Any, ApplicationCall>, contentType: ContentType, value: Any): Any? {
+    override suspend fun convertForSend(context: PipelineContext<Any, ApplicationCall>, contentType: ContentType, value: Any): Any? {
         return TextContent(klaxon.toJsonString(value), contentType.withCharset(context.call.suitableCharset()))
     }
 
-    suspend override fun convertForReceive(context: PipelineContext<ApplicationReceiveRequest, ApplicationCall>): Any? {
+    override suspend fun convertForReceive(context: PipelineContext<ApplicationReceiveRequest, ApplicationCall>): Any? {
         val request = context.subject
         return klaxon.fromJsonObject(klaxon.parseJsonObject((request.value as? IncomingContent ?: return null).readText().reader()), request.type.javaObjectType, request.type)
     }
