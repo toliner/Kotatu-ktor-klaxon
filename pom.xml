@@ -52,7 +52,7 @@
         <dependency>
             <groupId>io.ktor</groupId>
             <artifactId>ktor-server-core</artifactId>
-            <version>0.9.1-alpha-8</version>
+            <version>0.9.1-alpha-9</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

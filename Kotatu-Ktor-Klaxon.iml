@@ -35,15 +35,17 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.2.10" level="project" />
     <orderEntry type="library" name="Maven: com.beust:klaxon:2.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.2.10" level="project" />
-    <orderEntry type="library" name="Maven: io.ktor:ktor-server-core:0.9.1-alpha-8" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.20-alpha-12" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.20-alpha-12" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.20-alpha-12" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-io-jvm:0.0.7" level="project" />
+    <orderEntry type="library" name="Maven: io.ktor:ktor-server-core:0.9.1-alpha-9" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.21.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.21.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.21.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-io-jvm:0.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe:config:1.3.1" level="project" />
-    <orderEntry type="library" name="Maven: io.ktor:ktor-utils:0.9.1-alpha-8" level="project" />
-    <orderEntry type="library" name="Maven: io.ktor:ktor-http:0.9.1-alpha-8" level="project" />
+    <orderEntry type="library" name="Maven: io.ktor:ktor-utils:0.9.1-alpha-9" level="project" />
+    <orderEntry type="library" name="Maven: io.ktor:ktor-http:0.9.1-alpha-9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
